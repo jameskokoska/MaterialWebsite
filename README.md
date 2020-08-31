@@ -1,5 +1,5 @@
 # Material Website
-A website designed to follow material guidelines.
+A website designed and programmed to follow material guidelines as fast as possible as a challenge.
 ## Features
 * Read data from an a database array (located in ```data.js```)
 * Follows material guidelines and colours
