@@ -45,6 +45,7 @@ html, body {
 
 a{
   text-decoration: none;
+  color:white;
 }
 
 .background{
@@ -155,7 +156,6 @@ a{
 
 .contactIcon{
   padding-right: 1vw;
-  filter: brightness(1000%);
 }
 
 .finePrint{

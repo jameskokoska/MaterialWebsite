@@ -75,19 +75,19 @@
                         document.getElementById("contactContent").innerHTML = contactContent;
                     </script>
                 </p>
-                    <div id="contactIconBox"></div>
-                    <script src="data.js"></script>
-                    <script>
-                        out="";
-                        for(i = 0; i < contact.length; i++) {
-                            out+='<a href="';
-                            out+=contact[i].link;
-                            out+='"><i class="contactIcon ';
-                            out+=contact[i].fontawesomeCode;
-                            out+='"></i></a>';
-                        }
-                        document.getElementById("contactIconBox").innerHTML = out;
-                    </script>                    
+                <div id="contactIconBox"></div>
+                <script src="data.js"></script>
+                <script>
+                    out="";
+                    for(i = 0; i < contact.length; i++) {
+                        out+='<a href="';
+                        out+=contact[i].link;
+                        out+='"><i class="contactIcon ';
+                        out+=contact[i].fontawesomeCode;
+                        out+='"></i></a>';
+                    }
+                    document.getElementById("contactIconBox").innerHTML = out;
+                </script>
             </div>
         </div>
 
